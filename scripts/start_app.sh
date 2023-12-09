@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["43.204.230.55"]/' /home/ubuntu/aws_testing/elevate/settings.py
+sed -i 's/\[]/\["65.0.20.3"]/' /home/ubuntu/aws_testing/elevate/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
